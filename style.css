@@ -1,0 +1,206 @@
+* {
+    box-sizing: border-box;
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 0px;
+}
+
+body{
+    background-color: rgb(29, 147, 194);
+}
+
+h1 {
+    font-size: 60px;
+    text-align: center;
+    font-family: 'Exo 2', sans-serif;
+    background: linear-gradient(to right, rgb(38, 38, 199), rgb(18, 162, 11));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.card{
+    background: white;
+    width: 270px;
+    margin: 10px;
+    border-radius: 15px;
+}
+
+.pop-image{
+    height: 270px;
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+}
+
+.pop-1 {
+    background-image: url(pop-figures/creeper-pop.jpg);
+}
+
+.pop-2 {
+    background-image: url(pop-figures/kermit.png);
+}
+.pop-3 {
+    background-image: url(pop-figures/max.jpg);
+}
+.pop-4 {
+    background-image: url(pop-figures/Bean.jpg);
+}
+.pop-5 {
+    background-image: url(pop-figures/vegeta.jpeg);
+}
+.pop-6 {
+    background-image: url(pop-figures/takeoff.jpg);
+}
+.pop-7 {
+    background-image: url(pop-figures/quavo.png);
+}
+.pop-8 {
+    background-image: url(pop-figures/offset.jpg);
+    height: 350px;
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+}
+.pop-9 {
+    background-image: url(pop-figures/puft.jpg);
+}
+.pop-10 {
+    background-image: url(pop-figures/deku.jpg);
+}
+
+.num-1 a{
+    background-color: rgb(137, 27, 137);
+    color: lightgreen;
+    padding: 10px 10px;
+    display: block;
+    text-align: center;
+    margin: 20px 90px;
+    border-radius: 10px;
+}
+
+.num-2 a{
+    background-color: rgb(4, 112, 15);
+    color: rgb(67, 225, 67);
+    padding: 10px 10px;
+    display: block;
+    text-align: center;
+    margin: 20px 90px;
+    border-radius: 10px;
+}
+
+.num-3 a{
+    background-color: orange;
+    color: black;
+    padding: 10px 10px;
+    display: block;
+    text-align: center;
+    margin: 20px 90px;
+    border-radius: 10px;
+}
+
+.num-4 a{
+    background-color: lightblue;
+    color: white;
+    padding: 10px 10px;
+    display: block;
+    text-align: center;
+    margin: 20px 90px;
+    border-radius: 10px;
+}
+
+.num-5 a{
+    background-color: rgb(30, 23, 222);
+    color: orange;
+    padding: 10px 10px;
+    display: block;
+    text-align: center;
+    margin: 20px 90px;
+    border-radius: 10px;
+}
+
+.num-6 a{
+    background-color: rgb(222, 190, 6);
+    color: white;
+    padding: 10px 10px;
+    display: block;
+    text-align: center;
+    margin: 20px 90px;
+    border-radius: 10px;
+}
+
+.num-7 a{
+    background-color: rgb(222, 190, 6);
+    color: white;
+    padding: 10px 10px;
+    display: block;
+    text-align: center;
+    margin: 20px 90px;
+    border-radius: 10px;
+}
+
+.num-8 a{
+    background-color: rgb(222, 190, 6);
+    color: white;
+    padding: 10px 10px;
+    display: block;
+    text-align: center;
+    margin: 20px 90px;
+    border-radius: 10px;
+}
+
+.num-9 a{
+    background-color: pink;
+    color: white;
+    padding: 10px 10px;
+    display: block;
+    text-align: center;
+    margin: 20px 90px;
+    border-radius: 10px;
+}
+
+.num-10 a{
+    background-color: green;
+    color: lightskyblue;
+    padding: 10px 10px;
+    display: block;
+    text-align: center;
+    margin: 20px 90px;
+    border-radius: 10px;
+}
+
+a:hover{
+    color:tomato;
+}
+
+.card:hover{
+    background-color: rgb(62, 62, 62);
+    color: white;
+    cursor: pointer;
+    /*This increases everthing on the card by 1.03x their normal size*/
+    transform: scale(1.03);
+    transition: all 1s ease;
+}
+
+.upButton {
+    position: fixed;
+    width: 60px;  
+    height: 60px;
+    color: white;
+    bottom: 20px;
+    right: 100px;
+    background-color: blue;
+    text-decoration: none;
+    
+    text-align: center;
+    line-height: 70px;
+    border-radius: 10px;
+}
+
+a:hover{
+    color:tomato;
+}
